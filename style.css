@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url('https://wallpaperaccess.com/full/2314950.jpg');
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight:bolder;
+    padding-top:15px;
+    padding-bottom:25px;
+    color:white
+}
+
+.f-div{
+    text-align: center;
+    justify-content: center;
+
+}
+.f-div input{
+    width:40%;
+    padding: 10px;
+  
+}
+.f-div button{
+    background-color: green;
+    color: antiquewhite;
+    height:40px;
+    border:none;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.full{
+    width:90%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding:36px;
+    margin-top:20px;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.div-1{
+    flex-basis: 20%;
+    margin:10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.div-1 img{
+ padding:0px;
+ margin:0px;
+    height: 300px;
+    width:200px;
+    overflow: hidden;
+     border-radius: 10px;
+} 
+.div-1 a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    margin:2px;
+    color:white;
+}
